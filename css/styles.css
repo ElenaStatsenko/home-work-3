@@ -367,31 +367,35 @@ margin-bottom: 72px;
     align-items: center;   
 }
 .icon-list {
-    list-style: none;
-    
+    list-style: none;   
+}
+.link-icon {
     Width:168px;
     Height:88px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #8E8F99;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+
 }
-.icon-list:hover {
-    border: 1px solid  #9747FF;
+.link-icon:hover,
+.link-icon:focus {
+    border: 1px solid  #4D5AE5;
+    color: #4D5AE5;
 }
-.link-icon {
+.icon-customers {
     padding: 0;
     margin: 0;
-    fill:  #AFB1B8;  
+    fill: currentColor;  
 }
-.link-icon:hover {
-    fill: #404BBF;
+.icon-customers:hover {
+    fill:currentColor;
 }
+
 
 
 /* футер */
