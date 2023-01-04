@@ -128,7 +128,11 @@ h1, h2, h3, ul, li, p{
     padding-bottom: 192px;
     padding-top: 192px;
     text-align: center;
-    background-color: var(--title-text-color);
+    background-color: var(--accent-bg-color);
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+   background-size: cover;
+   background-position: center;
+    
 }
 
 .hero-title {
